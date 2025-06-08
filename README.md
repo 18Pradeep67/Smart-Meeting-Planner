@@ -38,7 +38,7 @@ Uses [lucide-react](https://lucide.dev/) for icons.
 
 ### Backend
 
-1. Clone the repo and navigate to backend folder (if separate).
+1. Clone the repo.
 
 2. Install dependencies:
 
@@ -53,7 +53,7 @@ uvicorn main:app --reload
 
 ### Frontend
 
-1. Navigate to frontend folder.
+1. Navigate to the Frontend folder.
 2. Install dependencies (assuming use of npm or yarn):
 ```bash
 npm install
