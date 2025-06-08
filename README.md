@@ -118,4 +118,9 @@ I used bolt.new for generating the frontend. I chose not to spend much time on f
    * Mostly, there were no challenges, as the project was structured properly. I could easily find where the integration code was. I just had to make sure the ```API_URL``` was correct, all the paths were called correctly, and that the calls were made in the correct format. Once I double-checked these, all I had to do was press the buttons on the website, and everything worked as expected.   
    
 3. If given two more days, I would focus on refactoring and enhancing the backend API to make it more robust and scalable. This includes adding comprehensive validation, better error handling, and detailed logging to track issues more effectively. I would also add more features like user authentication, slot cancellation, and conflict resolution to make the booking system more complete. Additionally, I’d write automated tests for API endpoints to ensure reliability and ease future maintenance.
-      
+
+
+---
+#### Loom video link
+[https://www.loom.com/share/d6250467698641e8a89db9ce83641b0c?sid=03ffb3ff-628e-430d-a6c0-86a55650687a](https://www.loom.com/share/d6250467698641e8a89db9ce83641b0c?sid=03ffb3ff-628e-430d-a6c0-86a55650687a)
+
