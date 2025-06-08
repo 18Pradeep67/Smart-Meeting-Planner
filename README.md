@@ -98,40 +98,15 @@ I used bolt.new for generating the frontend. I chose not to spend much time on f
       
           A button book should be displayed, after that we should be able to select an option out of all the displayed results   
           My api returns results of /suggest call like this:   
-          [
-          [
-          "10:30",
-          "11:00"
-          ],
-          [
-          "12:00",
-          "13:00"
-          ],
-          [
-          "14:00",
-          "15:00"
-          ]
-          ]
+          [["10:30","11:00"],["12:00","13:00"],["14:00","15:00"]]
               
           After choosing one of these options, I should be able to get a pop up like booked or some confirmation    
           
           Calendar tab:-   
           I should be able to select a user id   
           My api returns this:    
-          {
-          "busy": [
-          [
-          "09:00",
-          "10:30"
-          ],
-          [
-          "13:00",
-          "14:00"
-          ]
-          ],
-          "booked": []
-          }    
-          
+          {"busy": [["09:00","10:30"],["13:00","14:00"]],"booked": []}
+   
           /slots and /suggest and /calendar/<id> are api calls that I had already written
 
    **Successes**
@@ -140,7 +115,7 @@ I used bolt.new for generating the frontend. I chose not to spend much time on f
    * It was easy to understand and make changes for integration as it is structured properly.
 
    **Challenges**
-   * Mostly, there were no challenges, as the project was structured properly. I could easily find where the integration code was. I just had to make sure the ```API_URL``` was correct, all the paths were called correctly, and that the calls were made in the correct format. Once I double-checked these, all I had to do was press the buttons on the website, and everything worked as expected.
+   * Mostly, there were no challenges, as the project was structured properly. I could easily find where the integration code was. I just had to make sure the ```API_URL``` was correct, all the paths were called correctly, and that the calls were made in the correct format. Once I double-checked these, all I had to do was press the buttons on the website, and everything worked as expected.   
    
-   2. If given two more days, I would focus on refactoring and enhancing the backend API to make it more robust and scalable. This includes adding comprehensive validation, better error handling, and detailed logging to track issues more effectively. I would also add more features like user authentication, slot cancellation, and conflict resolution to make the booking system more complete. Additionally, I’d write automated tests for API endpoints to ensure reliability and ease future maintenance.
+3. If given two more days, I would focus on refactoring and enhancing the backend API to make it more robust and scalable. This includes adding comprehensive validation, better error handling, and detailed logging to track issues more effectively. I would also add more features like user authentication, slot cancellation, and conflict resolution to make the booking system more complete. Additionally, I’d write automated tests for API endpoints to ensure reliability and ease future maintenance.
       
